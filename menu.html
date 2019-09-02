@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta content="text/html" charset="utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=10"/>
+
+    <script language="JavaScript" type="text/javascript" src="Scripts/BaseCommand.js"></script>
+    <script language="JavaScript" type="text/javascript" src="Scripts/BaseEvent.js"></script>
+    <script language="JavaScript" type="text/javascript" src="Scripts/LogConsole.js"></script>
+    <script language="JavaScript" type="text/javascript" src="Scripts/Language.js"></script>
+    <script language="JavaScript" type="text/javascript" src="Scripts/custom.js"></script>
+    <script type="text/javascript" src="Scripts/jquery-3.3.1.min.js"></script>
+    <script language="JavaScript" type="text/javascript" src="maincontents.js"></script>
+    <script src="boots/js/bootstrap.min.js"></script> 
+    <link rel="stylesheet" href="boots/css/bootstrap.min.css">
+    
+    <link href="css/Main.css" rel="stylesheet" type="text/css"/>
+</head>
+
+<body  onbeforeunload="JSUnload()" ondragstart="return false;" ondrop="return false;" style="-ms-user-select:none;" oncontextmenu="return false;">
+
+  <header onclick="">
+    <div class="config" onclick="FC_ContentsCall('Config')">
+        <img src="assets/config.png" height="58">
+    </div>
+    <!--<div class="img-home" onclick="location.href ='maincontents.htm'"></div>-->
+    <div class="logo">
+      <img src="assets/logo.png" onclick="FC_ContentsCall('Home')">
+    </div>
+
+  </header>
+  <nav></nav>
+  <section class="main-content">
+    <div class="navigation">
+
+      <div class="col-sm-4 navigation-box" style="border-color: #ff6566" onclick="FC_ContentsCall('')">
+        <div style="border-color: #ff6566">
+          <img src="assets/icons/survey-3.png" class="navigation-icon">
+          <h2 class="navigation-text">Quiz</h2> 
+        </div>
+        
+      </div>
+      
+      <div class="col-sm-4 navigation-box" style="border-color: #ffde59" onclick="FC_ContentsCall('')">
+        <div style="border-color: #ffde59">
+          <img src="assets/icons/dance.png" class="navigation-icon" width="250">
+          <h2 class="navigation-text">Photos</h2>
+        </div>
+      </div>
+
+      <div class="col-sm-4 navigation-box" style="border-color: #3b9f1d" onclick="FC_ContentsCall('')">
+        <div style="border-color: #3b9f1d">
+          <img src="assets/icons/android-6.png" class="navigation-icon" width="190">
+          <h2 class="navigation-text">Videos</h2>
+        </div>
+      </div>
+
+      <div class="col-sm-4 navigation-box" style="border-color: #42b9ff" onclick="FC_ContentsCall('Dance')">
+        <div style="border-color: #42b9ff">
+          <img src="assets/icons/dance.png" class="navigation-icon" width="250">
+          <h2 class="navigation-text">Dance</h2>
+        </div>
+      </div>
+
+      <div class="col-sm-4 navigation-box" style="border-color: #ff6566" onclick="FC_ContentsCall('Avatar')">
+        <div style="border-color: #ff6566">
+          <img src="assets/icons/android-6.png" class="navigation-icon">
+          <h2 class="navigation-text">Avatar</h2>
+        </div>
+      </div>
+
+      <div class="col-sm-4 navigation-box" style="border-color: #ffde59"  onclick="FC_ContentsCall('Selfie')">
+        <div style="border-color: #ffde59" >
+          <img src="assets/icons/camera-3.png" class="navigation-icon" width="250">
+          <h2 class="navigation-text" style="font-size: 50px;">Take-a-Picture</h2>
+        </div>
+      </div>
+
+  </section>
+<footer>
+  <img src="assets/footer.png">
+</footer>
+
+  <div id="dialog-overlay"></div>
+  <div id="dialog-box">
+  </div>
+  <style type="text/css">
+    nav {
+      height: 0px;
+    }
+    .main-content {
+      height: 1020px;
+      margin-top: 0;
+      padding-top: 25px;
+      background-color: ;
+      border-top: 10px solid #79b900;
+    }
+    .navigation-icon {
+      margin: 0;
+        width: 250px;
+        float: none;
+    }
+    .navigation-text {
+    font-weight: bold;
+    font-size: 70px;
+    color: #000;
+    position: inherit;
+    top: 40px;
+    /* left: 100px; */
+    text-align: center;
+}
+    .navigation-box{
+      width: 340px;
+      border: 10px solid;
+      padding: 10px;
+    
+        height: 430px;
+        margin: 0 10px 20px 10px;text-align: center;
+    }
+    .navigation-box div {
+      width:300px;
+      height: 390px;
+    }
+    
+  </style>
+
+</body>
+</html>
