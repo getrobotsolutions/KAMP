@@ -92,12 +92,13 @@ footer {
 	height: 220px;
 }
 .navigation-text{
+	
 	font-weight: bold;
-	font-size: 70px;
+	font-size: 100px;
     color: #000;
     position: relative;
-    top: 40px;
-    left: 100px;
+    top: 30px;
+    left: 90px;
 }
 
 a.button {

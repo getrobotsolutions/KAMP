@@ -32,6 +32,10 @@ function FC_ContentsCall(strContentsName, strLanguage)
             //writeCookie("NavigationState", true, 30);
            location.href = "maincontents.htm";
            break;
+        case "Home2":
+            //writeCookie("NavigationState", true, 30);
+           location.href = "../../maincontents.htm";
+           break;
         case "Menu-2":
                 location.href = "menu.html";
             break;
@@ -59,6 +63,10 @@ function FC_ContentsCall(strContentsName, strLanguage)
             location.href = "Contents/RobotAvatar/index.htm";
             break;
         case "Dance":
+            //PlaySpeech(speak[3]);
+            location.href = "Contents/Dance/index.html";
+            break;
+        case "Dance2":
             //PlaySpeech(speak[3]);
             location.href = "Contents/Dance/index.html";
             break;
